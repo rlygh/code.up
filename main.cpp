@@ -2,9 +2,9 @@
 
 int main(void)
 {
-    int h,m,s;
-    scanf("%d:%d:%d",&h,&m,&s);
-    printf("%d",m);
+    int a,b,c;
+    scanf("%d.%d.%d",&a,&b,&c);
+    printf("%02d-%02d-%04d",c,b,a);
 
     return 0;
 }
