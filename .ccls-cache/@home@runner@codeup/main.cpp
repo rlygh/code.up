@@ -2,12 +2,9 @@
 
 int main(void)
 {
-    char a[20];
-    scanf("%s",&a);
-
-    for(int i=0;a[i]!='\0';i++){
-        printf("'%c'\n", a[i]);
-    }
+    int a,b,c,d,e;
+    scanf("%1d%1d%1d%1d%1d",&a,&b,&c,&d,&e);
+    printf("[%d]\n[%d]\n[%d]\n[%d]\n[%d]",a*10000, b*1000,c*100,d*10,e);
 
     return 0;
 }
